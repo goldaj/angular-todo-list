@@ -1,0 +1,41 @@
+<div *ngIf="loading">Chargement ...</div>
+<div *ngIf="!loading">
+    <div class="todoMenu">
+        <a mat-raised-button routerLink="../create" color="primary">Ajouter</a>
+    </div>
+    <table *ngIf="todos" mat-table [dataSource]="todos">
+        <ng-container matColumnDef="userId">
+            <th mat-header-cell *matHeaderCellDef> User Id </th>
+            <td mat-cell *matCellDef="let todo"> {{todo.userId}} </td>
+        </ng-container>
+        <ng-container matColumnDef="id">
+            <th mat-header-cell *matHeaderCellDef> Id </th>
+            <td mat-cell *matCellDef="let todo"> {{todo.id}} </td>
+        </ng-container>
+        <ng-container matColumnDef="title">
+            <th mat-header-cell *matHeaderCellDef> Title </th>
+            <td mat-cell *matCellDef="let todo"> {{todo.title}} </td>
+        </ng-container>
+        <ng-container matColumnDef="completed">
+            <th mat-header-cell *matHeaderCellDef> Completed </th>
+            <td mat-cell *matCellDef="let todo">
+                <mat-checkbox [ngModel]="todo.completed" (ngModelChange)="todo.completed = $event;"
+                    (change)="todoChanged(todo)">
+                </mat-checkbox>
+            </td>
+        </ng-container>
+        <ng-container matColumnDef="actions">
+            <th mat-header-cell *matHeaderCellDef> Actions </th>
+            <td mat-cell *matCellDef="let todo">
+                <button mat-icon-button [routerLink]="[ '..', todo.id, 'details']" >
+                    <mat-icon>search</mat-icon>
+                </button>
+                <button mat-icon-button [routerLink]="[ '..', todo.id, 'edit']">
+                    <mat-icon>edit</mat-icon>
+                </button>
+            </td>
+        </ng-container>
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="{'done': row['completed']}"></tr>
+    </table>
+</div>

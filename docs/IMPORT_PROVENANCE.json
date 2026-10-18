@@ -1,0 +1,384 @@
+{
+  "import_date": "2026-10-18",
+  "note": "Originals and source mappings remain local. Public configuration edits are described in README.",
+  "files": [
+    {
+      "path": ".editorconfig",
+      "source_group": "angular-todo-list",
+      "published_sha256": "69d5d6e39b33c5eda08ca5b9a9c79b907de19201dd2e88e7c6cd373dd4dff729",
+      "source_sha256": "69d5d6e39b33c5eda08ca5b9a9c79b907de19201dd2e88e7c6cd373dd4dff729"
+    },
+    {
+      "path": ".gitignore",
+      "source_group": "angular-todo-list",
+      "published_sha256": "b21d0a92ab470996188024417dbcaf9fc50a3a1cbf48eaaa9561e7ce72c1531c",
+      "original_preserved_locally": true
+    },
+    {
+      "path": "angular.json",
+      "source_group": "angular-todo-list",
+      "published_sha256": "b4cc7660d9e9017ba3d4bb8cb8f669a36c74996e973c51dc6f020a29898c23ff",
+      "source_sha256": "b4cc7660d9e9017ba3d4bb8cb8f669a36c74996e973c51dc6f020a29898c23ff"
+    },
+    {
+      "path": "karma.conf.js",
+      "source_group": "angular-todo-list",
+      "published_sha256": "65ca8679a1011fdfa149566c48e04184eda1850ec5f7e16966e9808ea7af4fee",
+      "source_sha256": "65ca8679a1011fdfa149566c48e04184eda1850ec5f7e16966e9808ea7af4fee"
+    },
+    {
+      "path": "package-lock.json",
+      "source_group": "angular-todo-list",
+      "published_sha256": "bd83f93cec7fc26203afd6ac798bb2bb441f9f8df548380a3a74da5735c88861",
+      "source_sha256": "bd83f93cec7fc26203afd6ac798bb2bb441f9f8df548380a3a74da5735c88861"
+    },
+    {
+      "path": "package.json",
+      "source_group": "angular-todo-list",
+      "published_sha256": "0c12c84bb8e48d9130ee64c23e8d9e66cc7c004563d4ae3321ff745b76b8875b",
+      "source_sha256": "0c12c84bb8e48d9130ee64c23e8d9e66cc7c004563d4ae3321ff745b76b8875b"
+    },
+    {
+      "path": "README.md",
+      "source_group": "angular-todo-list",
+      "published_sha256": "26549e82f90511e8811f8273e800feb2321ad858db25f9c15c8f91fbe038b0c3",
+      "original_preserved_locally": true
+    },
+    {
+      "path": "tsconfig.app.json",
+      "source_group": "angular-todo-list",
+      "published_sha256": "14099ef8c585db755d0ddb5cb686c276975297d8ddf7b260c5255a4188eab5ef",
+      "source_sha256": "14099ef8c585db755d0ddb5cb686c276975297d8ddf7b260c5255a4188eab5ef"
+    },
+    {
+      "path": "tsconfig.json",
+      "source_group": "angular-todo-list",
+      "published_sha256": "0f013e36d86dafdf50f4860b2d2f258d6296010c5982d887231ac2dc776ba7f7",
+      "source_sha256": "0f013e36d86dafdf50f4860b2d2f258d6296010c5982d887231ac2dc776ba7f7"
+    },
+    {
+      "path": "tsconfig.spec.json",
+      "source_group": "angular-todo-list",
+      "published_sha256": "bd5dfc878de6de9ac196ee169bf7b6652621e9e575bd96b2307eb3794f0f4dc3",
+      "source_sha256": "bd5dfc878de6de9ac196ee169bf7b6652621e9e575bd96b2307eb3794f0f4dc3"
+    },
+    {
+      "path": "tslint.json",
+      "source_group": "angular-todo-list",
+      "published_sha256": "7667375cc33bf3c4248c524a19440028a600f98625d79f0fd82a6d489b0de5e7",
+      "source_sha256": "7667375cc33bf3c4248c524a19440028a600f98625d79f0fd82a6d489b0de5e7"
+    },
+    {
+      "path": "e2e/protractor.conf.js",
+      "source_group": "angular-todo-list",
+      "published_sha256": "6cda1fb5bf6bea9abeb086c864870a34f477c918ab166b151351edabe66fe6ed",
+      "source_sha256": "6cda1fb5bf6bea9abeb086c864870a34f477c918ab166b151351edabe66fe6ed"
+    },
+    {
+      "path": "e2e/tsconfig.json",
+      "source_group": "angular-todo-list",
+      "published_sha256": "0cce3e0182ce93112cdf85345b28afa5809bb76efb3734f5685a0980ffb3b447",
+      "source_sha256": "0cce3e0182ce93112cdf85345b28afa5809bb76efb3734f5685a0980ffb3b447"
+    },
+    {
+      "path": "e2e/src/app.e2e-spec.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "b0f6e7c581ecf4d4c5d0575654f9a5928d5d7fa13bf23048f414a3b20a0a043e",
+      "source_sha256": "b0f6e7c581ecf4d4c5d0575654f9a5928d5d7fa13bf23048f414a3b20a0a043e"
+    },
+    {
+      "path": "e2e/src/app.po.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "3f76fd9f14cef8f48171f0c8e0b30efc0c621ffd90a0501125c27da9d58f49d2",
+      "source_sha256": "3f76fd9f14cef8f48171f0c8e0b30efc0c621ffd90a0501125c27da9d58f49d2"
+    },
+    {
+      "path": "src/favicon.ico",
+      "source_group": "angular-todo-list",
+      "published_sha256": "2d0a4f5a77c788b084919b1b8cad5713d9dfc3388ef29969c4cb66c28092e683",
+      "source_sha256": "2d0a4f5a77c788b084919b1b8cad5713d9dfc3388ef29969c4cb66c28092e683"
+    },
+    {
+      "path": "src/index.html",
+      "source_group": "angular-todo-list",
+      "published_sha256": "62752128f0b22808ffdd81ac348e0aef06597c21e7b77ac86dc065b1ed3fa120",
+      "source_sha256": "62752128f0b22808ffdd81ac348e0aef06597c21e7b77ac86dc065b1ed3fa120"
+    },
+    {
+      "path": "src/main.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "44bab8ced43078310e1affbf44ca0682f42151082fe1d59a653699697ecabd7d",
+      "source_sha256": "44bab8ced43078310e1affbf44ca0682f42151082fe1d59a653699697ecabd7d"
+    },
+    {
+      "path": "src/polyfills.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "1715fced821c47d9bbd972f56e95e34eccd2dc25ec1cfc368dd3ac1ef17e67fa",
+      "source_sha256": "1715fced821c47d9bbd972f56e95e34eccd2dc25ec1cfc368dd3ac1ef17e67fa"
+    },
+    {
+      "path": "src/test.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "d0e763cd3db1c76fa804d238422f1120ed648d21ed4a172c2d3476e5060a14c4",
+      "source_sha256": "d0e763cd3db1c76fa804d238422f1120ed648d21ed4a172c2d3476e5060a14c4"
+    },
+    {
+      "path": "src/app/app-routing.module.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "fb938b5447b444f3ccf1f4efb22a53a62f229fcd2b1dda478da0bdc2a3dfb35b",
+      "source_sha256": "fb938b5447b444f3ccf1f4efb22a53a62f229fcd2b1dda478da0bdc2a3dfb35b"
+    },
+    {
+      "path": "src/app/app.component.html",
+      "source_group": "angular-todo-list",
+      "published_sha256": "4a0786aaef72916396d1a0d657eb37f971945e052457496fcc3b550a83a59453",
+      "source_sha256": "4a0786aaef72916396d1a0d657eb37f971945e052457496fcc3b550a83a59453"
+    },
+    {
+      "path": "src/app/app.component.spec.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "0e974721a8179debaf894fe83d75bb9163e4d2367123955b36c7103cd2d9ca25",
+      "source_sha256": "0e974721a8179debaf894fe83d75bb9163e4d2367123955b36c7103cd2d9ca25"
+    },
+    {
+      "path": "src/app/app.component.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "e71dee43b4bf0e638edbf38bb64faf0393318cfeb7d5cab7ec69ad3a6ffa991d",
+      "source_sha256": "e71dee43b4bf0e638edbf38bb64faf0393318cfeb7d5cab7ec69ad3a6ffa991d"
+    },
+    {
+      "path": "src/app/app.module.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "53ae7c26948301b4adeb8e1e80c2a26c5eec3246626341deb2c80461d03b6ab2",
+      "source_sha256": "53ae7c26948301b4adeb8e1e80c2a26c5eec3246626341deb2c80461d03b6ab2"
+    },
+    {
+      "path": "src/app/shared/base.service.spec.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "bd3eb38111c89d4286d028609c78fd39c14d3154698f13092eeb9b2202973090",
+      "source_sha256": "bd3eb38111c89d4286d028609c78fd39c14d3154698f13092eeb9b2202973090"
+    },
+    {
+      "path": "src/app/shared/base.service.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "b6b21f62f766d8a29e3e214b375427ff7dc9535d91b4cb280203a159de77c84c",
+      "source_sha256": "b6b21f62f766d8a29e3e214b375427ff7dc9535d91b4cb280203a159de77c84c"
+    },
+    {
+      "path": "src/app/shared/production.guard.spec.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "e4db35e6c4b5bf55d208819cfc08c3d8c256199704c54c447530e5e4546cc5df",
+      "source_sha256": "e4db35e6c4b5bf55d208819cfc08c3d8c256199704c54c447530e5e4546cc5df"
+    },
+    {
+      "path": "src/app/shared/production.guard.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "30446417bac3abdcfe64abad0fc47b2f0cc7d06e85e682ed3b72ce689338fcda",
+      "source_sha256": "30446417bac3abdcfe64abad0fc47b2f0cc7d06e85e682ed3b72ce689338fcda"
+    },
+    {
+      "path": "src/app/shared/shared.module.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "00326b7d4c0d0f5354df92a6bbd7df51e39adee8f7cb666ba5c62eda149f17cc",
+      "source_sha256": "00326b7d4c0d0f5354df92a6bbd7df51e39adee8f7cb666ba5c62eda149f17cc"
+    },
+    {
+      "path": "src/app/shared/snack.service.spec.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "2adf5f7846c67d94a091486b6c838953936ea4fc100c739e65c4f6f3d879f3b6",
+      "source_sha256": "2adf5f7846c67d94a091486b6c838953936ea4fc100c739e65c4f6f3d879f3b6"
+    },
+    {
+      "path": "src/app/shared/snack.service.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "3f0b5d4712d7d6cd14d79d953441ec899e92db40acc8b0310bb775b8e143c058",
+      "source_sha256": "3f0b5d4712d7d6cd14d79d953441ec899e92db40acc8b0310bb775b8e143c058"
+    },
+    {
+      "path": "src/app/shared/todo.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "b86c2d2717ce45573165e47c25ee79dd253dcab6b551dc9e3dc82b9633f26e77",
+      "source_sha256": "b86c2d2717ce45573165e47c25ee79dd253dcab6b551dc9e3dc82b9633f26e77"
+    },
+    {
+      "path": "src/app/shared/todos.service.spec.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "9d16dafa561c6a5972dd4c44b871c2be50004ecb4d304148058da9608659116f",
+      "source_sha256": "9d16dafa561c6a5972dd4c44b871c2be50004ecb4d304148058da9608659116f"
+    },
+    {
+      "path": "src/app/shared/todos.service.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "c40e4c7d5e106cea80042cbccf67913066bcb6194c4a5ca63e91c8598bd5bc32",
+      "source_sha256": "c40e4c7d5e106cea80042cbccf67913066bcb6194c4a5ca63e91c8598bd5bc32"
+    },
+    {
+      "path": "src/app/shared/user.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "18abebe94f3fcc4f906133f0200ae55412ad4b17cf1b9828a1514acee17e2351",
+      "source_sha256": "18abebe94f3fcc4f906133f0200ae55412ad4b17cf1b9828a1514acee17e2351"
+    },
+    {
+      "path": "src/app/shared/users.service.spec.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "04a6d19385c05779f2f471bd607de36399fd59cf8fc9ed01dd184b508c9ed5f3",
+      "source_sha256": "04a6d19385c05779f2f471bd607de36399fd59cf8fc9ed01dd184b508c9ed5f3"
+    },
+    {
+      "path": "src/app/shared/users.service.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "2dcabadc361c2fd7ffc670ba623cdafceb37aec12bbc0218bf2c231450ab8472",
+      "source_sha256": "2dcabadc361c2fd7ffc670ba623cdafceb37aec12bbc0218bf2c231450ab8472"
+    },
+    {
+      "path": "src/app/shared/nav-bar/nav-bar.component.html",
+      "source_group": "angular-todo-list",
+      "published_sha256": "03b5fe52922a1c3855e7ddbf234bc19ac55c2918036e121e0c4e7ba69b105c6d",
+      "source_sha256": "03b5fe52922a1c3855e7ddbf234bc19ac55c2918036e121e0c4e7ba69b105c6d"
+    },
+    {
+      "path": "src/app/shared/nav-bar/nav-bar.component.spec.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "70704d516e259fb9ba6928695950d9e9c37a315cc71372919b135ab7594574c8",
+      "source_sha256": "70704d516e259fb9ba6928695950d9e9c37a315cc71372919b135ab7594574c8"
+    },
+    {
+      "path": "src/app/shared/nav-bar/nav-bar.component.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "9cb6aeedc5fdc1fa8aa2996e0e8a674f2deee405709b0399b1d6d09dadb87b0b",
+      "source_sha256": "9cb6aeedc5fdc1fa8aa2996e0e8a674f2deee405709b0399b1d6d09dadb87b0b"
+    },
+    {
+      "path": "src/app/todos/todos.module.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "481c60ea62be26953b8f020ebc75ae2f2048331f99ed2fc09d9ca2b4298af571",
+      "source_sha256": "481c60ea62be26953b8f020ebc75ae2f2048331f99ed2fc09d9ca2b4298af571"
+    },
+    {
+      "path": "src/app/todos/details/details.component.html",
+      "source_group": "angular-todo-list",
+      "published_sha256": "0d99418a2afff485817f4004e5924b8a4bc96f5eee90b2a106ffde55d7dddccb",
+      "source_sha256": "0d99418a2afff485817f4004e5924b8a4bc96f5eee90b2a106ffde55d7dddccb"
+    },
+    {
+      "path": "src/app/todos/details/details.component.spec.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "33a03bebf0f4b105b216eba927fab9117396a4cb871994e4e9f25f2f405cbed7",
+      "source_sha256": "33a03bebf0f4b105b216eba927fab9117396a4cb871994e4e9f25f2f405cbed7"
+    },
+    {
+      "path": "src/app/todos/details/details.component.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "9d319535b9aae446599b93fd5ce86e0cabc7f5280dab1b894cadab9c80769783",
+      "source_sha256": "9d319535b9aae446599b93fd5ce86e0cabc7f5280dab1b894cadab9c80769783"
+    },
+    {
+      "path": "src/app/todos/edit/edit.component.html",
+      "source_group": "angular-todo-list",
+      "published_sha256": "de06f5746896780925321ed3ef4ac7941e40b4a9ac096134322628c1810344c8",
+      "source_sha256": "de06f5746896780925321ed3ef4ac7941e40b4a9ac096134322628c1810344c8"
+    },
+    {
+      "path": "src/app/todos/edit/edit.component.spec.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "15edd70b03aae6e1a2ef30cfc3662df51ba48e59621fe9dbaefba5de6cd56790",
+      "source_sha256": "15edd70b03aae6e1a2ef30cfc3662df51ba48e59621fe9dbaefba5de6cd56790"
+    },
+    {
+      "path": "src/app/todos/edit/edit.component.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "59d0588aff5a395dfcad91f13a3b7524fada4467fe44edcd79ff34c77a0a618b",
+      "source_sha256": "59d0588aff5a395dfcad91f13a3b7524fada4467fe44edcd79ff34c77a0a618b"
+    },
+    {
+      "path": "src/app/todos/list/list.component.html",
+      "source_group": "angular-todo-list",
+      "published_sha256": "239d81609fed4136c47cfcca25a1e85da083182eafdeef025f4c21ace309585d",
+      "source_sha256": "239d81609fed4136c47cfcca25a1e85da083182eafdeef025f4c21ace309585d"
+    },
+    {
+      "path": "src/app/todos/list/list.component.spec.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "43e7671331d931605f58726140388d09b8e7b11fb5db668079bf7c291f8db775",
+      "source_sha256": "43e7671331d931605f58726140388d09b8e7b11fb5db668079bf7c291f8db775"
+    },
+    {
+      "path": "src/app/todos/list/list.component.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "a0daf3fe97207ef6ec59322f770725d34821726822e0df924ea62b821fa03d92",
+      "source_sha256": "a0daf3fe97207ef6ec59322f770725d34821726822e0df924ea62b821fa03d92"
+    },
+    {
+      "path": "src/app/users/users.module.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "420c4624f6f727021b2aa2a9b942a2e12d005e70408d9da205c35fe16878666b",
+      "source_sha256": "420c4624f6f727021b2aa2a9b942a2e12d005e70408d9da205c35fe16878666b"
+    },
+    {
+      "path": "src/app/users/details/details.component.html",
+      "source_group": "angular-todo-list",
+      "published_sha256": "29227550e70ae05ca468ac0a2d5c62477c75394d4040e812622e0518d7f3374f",
+      "source_sha256": "29227550e70ae05ca468ac0a2d5c62477c75394d4040e812622e0518d7f3374f"
+    },
+    {
+      "path": "src/app/users/details/details.component.spec.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "b1d70449dd7402d4cc0cb4ded288690ef11cc6b26a7741d7b991731e2c13bbe3",
+      "source_sha256": "b1d70449dd7402d4cc0cb4ded288690ef11cc6b26a7741d7b991731e2c13bbe3"
+    },
+    {
+      "path": "src/app/users/details/details.component.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "942c593c940f4c05024060f856243f3f8e10de0e00d95ee9610909b44ad20f0f",
+      "source_sha256": "942c593c940f4c05024060f856243f3f8e10de0e00d95ee9610909b44ad20f0f"
+    },
+    {
+      "path": "src/app/users/edit/edit.component.html",
+      "source_group": "angular-todo-list",
+      "published_sha256": "f045e23f8701c839872459e7d5fdf726e1e919bbd1855adcd0f0bfc61de62c1a",
+      "source_sha256": "f045e23f8701c839872459e7d5fdf726e1e919bbd1855adcd0f0bfc61de62c1a"
+    },
+    {
+      "path": "src/app/users/edit/edit.component.spec.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "b73d2e64e9dbbc967e805ac3949fe39487134e780c07b6bb045f07c1ccc3c4a5",
+      "source_sha256": "b73d2e64e9dbbc967e805ac3949fe39487134e780c07b6bb045f07c1ccc3c4a5"
+    },
+    {
+      "path": "src/app/users/edit/edit.component.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "78345da5650883e2b66ad1769d68f52bf7ad958ab6d6a7119c8d0e7aede49478",
+      "source_sha256": "78345da5650883e2b66ad1769d68f52bf7ad958ab6d6a7119c8d0e7aede49478"
+    },
+    {
+      "path": "src/app/users/list/list.component.html",
+      "source_group": "angular-todo-list",
+      "published_sha256": "da0c1b42e8e36b816445c0be78beb16d298b75403e2e770314f2b4b9e6334634",
+      "source_sha256": "da0c1b42e8e36b816445c0be78beb16d298b75403e2e770314f2b4b9e6334634"
+    },
+    {
+      "path": "src/app/users/list/list.component.spec.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "57998ed9a8736f09525ff60ef94e1781153ea3628010a6cd03dcfc6383237d87",
+      "source_sha256": "57998ed9a8736f09525ff60ef94e1781153ea3628010a6cd03dcfc6383237d87"
+    },
+    {
+      "path": "src/app/users/list/list.component.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "b96b5de1349720725469ce32f6942b2df75d0d88f60386c77782639efb9dca5e",
+      "source_sha256": "b96b5de1349720725469ce32f6942b2df75d0d88f60386c77782639efb9dca5e"
+    },
+    {
+      "path": "src/environments/environment.prod.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "45193e1c49b242a4a5b477791adc87b362dcfbf02d79592eb99b9cf000c88cf6",
+      "source_sha256": "45193e1c49b242a4a5b477791adc87b362dcfbf02d79592eb99b9cf000c88cf6"
+    },
+    {
+      "path": "src/environments/environment.ts",
+      "source_group": "angular-todo-list",
+      "published_sha256": "01bb2162af6e806012c2f1d221f6190341f2b9c0b749ba3069f81ed97fbdcd93",
+      "source_sha256": "01bb2162af6e806012c2f1d221f6190341f2b9c0b749ba3069f81ed97fbdcd93"
+    }
+  ]
+}

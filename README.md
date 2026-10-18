@@ -1,27 +1,9 @@
-# TodoList
+# Todo list Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12.
+Exercice de liste de tâches, navigation, formulaires, services HTTP et tests associés ; utilisation de JSONPlaceholder comme API de démonstration.
 
-## Development server
+Archive pédagogique issue d’une formation Angular, avec squelette généré par Angular CLI 8.3.12. Ce dépôt conserve l’historique Git local existant et ajoute les modifications qui n’avaient pas encore été committées. Les deux sauvegardes locales étaient identiques et ont été dédupliquées.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+État : prototype de formation, non maintenu et non validé avec les versions actuelles de Node/Angular. Les dépendances historiques restent dans le manifeste et le lockfile pour préserver la provenance. La migration et la vérification des tests constituent les prochaines étapes.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Les anciennes commandes de développement et de test figurent dans [la documentation Angular CLI d’origine](docs/ANGULAR_CLI_ORIGINAL.md). Aucun répertoire de dépendances, secret ou environnement personnel n’est publié. Les exemples et le squelette du framework restent des supports pédagogiques, avec leurs attributions.
