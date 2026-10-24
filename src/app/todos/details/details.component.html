@@ -1,1 +1,12 @@
-<p>details works!</p>
+<section *ngIf="loading" role="status">Chargement de la tâche…</section>
+<section *ngIf="!loading && error" role="alert">{{error}}</section>
+<section *ngIf="!loading && todo">
+  <h2>{{todo.title}}</h2>
+  <dl>
+    <dt>Identifiant</dt><dd>{{todo.id}}</dd>
+    <dt>Utilisateur</dt><dd>{{todo.userId}}</dd>
+    <dt>État</dt><dd>{{todo.completed ? 'Terminée' : 'À faire'}}</dd>
+  </dl>
+  <a [routerLink]="['/todos', todo.id, 'edit']">Modifier</a>
+  <a routerLink="/todos/list">Retour à la liste</a>
+</section>
