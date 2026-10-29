@@ -23,7 +23,11 @@ export class ListComponent implements OnInit {
     this.loading = true;
     this.service.getAll().subscribe({
       next: result => this.todos = result,
-      error: error => console.error('Error retriving todos', error),
+      error: error => {
+        this.loading = false;
+        console.error('Error retrieving todos', error);
+        this.snackService.displayMessage('Impossible de charger les tâches', 'Erreur');
+      },
       complete: () => this.loading = false
     });
   }

@@ -15,3 +15,18 @@ Préserver code et tests historiques ; lire docs/ANGULAR_CLI_ORIGINAL.md ; ne pa
 
 ## Échanges manquants
 Les autres questions/réponses et leurs horaires précis ne sont pas récupérables intégralement depuis cette session. Aucune réponse de l'assistant n'a été présentée comme une citation. Enrichir le fichier avec un export authentique des conversations par session, conserver les messages dans l'ordre et exclure toute information sensible avant commit. Ne jamais effacer des journaux historiques.
+
+## 2026-10-24 : revue multi-dépôts en parallèle de Codex (heure non attestée)
+
+**Utilisateur (verbatim, conversation présente)**
+
+> tu vois tout le boulot qu'on a fait sur la conversation Avancement projets codex ?
+> Tu vas refaire la même chose sur TOUT mon repo git. Tu vas commencer par les projets les plus gros, regarder ce que tu peux faire dessus et le faire sur ta branch (même consignes que sur l'autre conversation).
+> Tu vas ensuite me faire un rapport très succint des projets que t'as touché et de ce que t'as avancé dessus.
+> Amuse toi !
+
+**Assistant (résumé reconstruit, non verbatim)**
+
+Ajout de AGENTS.md ciblé et plan de migration prudent Angular 8, dépendances historiques inchangées. Travail isolé sur `chatgpt/review-20261024`, base inchangée.
+
+**Validation et confiance** : confiance élevée sur diagnostic, moyenne sur plan dans la modification ciblée ; ne pas supposer des tests locaux exécutés. Vérifier GitHub Actions et comparer avec le travail Codex avant intégration. Ne pas fusionner automatiquement. Aucun secret ajouté.
